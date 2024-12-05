@@ -1,0 +1,190 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Jaro:opsz@6..72&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Jaro:opsz@6..72&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Jaro:opsz@6..72&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ? Fonts */
+:root {
+    --font-GeistMono: 'Geist Mono', sans-serif;
+    --font-Raleway: 'Raleway', sans-serif;
+    --font-Roboto: 'Roboto', sans-serif;
+    --font-Parkinsans: 'Parkinsans', sans-serif;
+    --font-OpenSans: 'Open Sans', sans-serif;
+    --font-Jaro: 'Jaro', sans-serif;
+    --font-PlayfairDisplay: 'Playfair Display', sans-serif;
+}
+
+.font-family-GeistMono {
+    font-family: var(--font-GeistMono);
+}
+
+.font-family-Raleway {
+    font-family: var(--font-Raleway);
+}
+
+.font-family-Roboto {
+    font-family: var(--font-Roboto);
+}
+
+.font-family-Parkinsans {
+    font-family: var(--font-Parkinsans);
+}
+
+.font-family-OpenSans {
+    font-family: var(--font-OpenSans);
+}
+
+.font-family-Jaro {
+    font-family: var(--font-Jaro);
+}
+
+.font-family-PlayfairDisplay {
+    font-family: var(--font-PlayfairDisplay);
+}
+
+/* ? font-size */
+.font-size-10 {
+    font-size: 10px;
+}
+
+.font-size-15 {
+    font-size: 15px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-25 {
+    font-size: 25px;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+/* ! Add if you need ...*/
+
+
+
+/* ? text-style */
+.font-style-italic {
+    font-style: italic;
+}
+
+.text-style-underline {
+    text-decoration: underline;
+}
+
+.text-style-dashed {
+    text-decoration: underline dashed;
+}
+
+.text-style-dotted {
+    text-decoration: underline dotted;
+}
+
+.text-style-double {
+    text-decoration: underline double;
+}
+
+.text-style-line-through {
+    text-decoration: line-through;
+}
+
+.text-style-overline {
+    text-decoration: overline;
+}
+
+.text-style-wavy {
+    text-decoration: underline wavy;
+}
+
+/* ? margins */
+
+.margine {
+    margin: 10px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-left-10 {
+    margin-right: 10px;
+}
+
+.margin-top-10 {
+    margin-right: 10px;
+}
+
+.margin-bottom-10 {
+    margin-right: 10px;
+}
+
+/* ! Add if you need ...*/
+
+/* ? list */
+
+.list-armenian {
+    list-style: armenian;
+}
+
+.list-circle {
+    list-style: circle;
+}
+
+.list-decimal {
+    list-style: decimal;
+}
+
+.list-decimal-leading-zero {
+    list-style: decimal-leading-zero;
+}
+
+.list-disc {
+    list-style: disc;
+}
+
+.list-georgian {
+    list-style: georgian;
+}
+
+.list-inside {
+    list-style: inside;
+}
+
+.list-square {
+    list-style: square;
+}
+
+.list-outside {
+    list-style: outside;
+}
+
+/* And if you want you can add your image to list, but i don't use it */
+
+/* ? paddings */
+.padding {
+    padding: 10px;
+}
+
+.padding-right-10 {
+    padding-right: 10px;
+}
+
+.padding-left-10 {
+    padding-left: 10px;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.padding-bottom-10 {
+    padding-bottom: 10px;
+}
