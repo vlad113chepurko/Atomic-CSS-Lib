@@ -1,4 +1,3 @@
 # Libraries
-<!-- all library styles are in index.css -->
+<!-- all library styles are in atomic.css, other it's for a test!-->
 <!-- also you can run site and check examples -->
-<!-- i will update it! -->
